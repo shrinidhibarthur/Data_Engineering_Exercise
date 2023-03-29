@@ -41,8 +41,8 @@ group by asin;
 
 
 print('start')
-conn = psycopg2.connect(dbname='catxin_idq_2', host='catx3p.ciipw3zt1uq9.us-east-1.redshift.amazonaws.com',
-                        port='8192', user='in3pcatxidq', password='Jade123$')
+conn = psycopg2.connect(dbname='xxxxxx', host='xxxxxxxx.us-east-1.redshift.amazonaws.com',
+                        port='8192', user='xxxxxx', password='xxxxxx')
 cursor = conn.cursor()
 print('start select')
 select(cur=cursor)
